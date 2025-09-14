@@ -1,0 +1,136 @@
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #ffffff;
+  color: #0f172a;
+  text-align: center;
+  padding: 24px;
+}
+
+
+.contenedor {
+  max-width: 1350px; 
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  gap: 24px;
+}
+
+
+.marca {
+  width: 72px;
+  height: 72px;
+  background: #E9F2FF;          
+  border-radius: 20px;           
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icono {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+
+.encabezado h1 {
+  margin-top: 6px;
+  font-size: clamp(32px, 4vw, 48px); 
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.texto-intro {
+  margin: 8px auto 0;
+  max-width: 70ch;               
+  color: #64748b;                
+  font-size: clamp(15px, 1.2vw, 18px);
+  line-height: 1.7;
+}
+
+
+.tarjeta {
+  width: 90%;
+  max-width: 720px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
+              0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.entrada {
+  height: 54px;
+  padding: 0 16px;
+  font-size: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #f8fafc;
+  outline: none;
+}
+
+.entrada:focus {
+  border-color: #b4c6ff;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(53, 86, 233, 0.12);
+}
+
+.boton {
+  height: 54px;
+  padding: 0 24px;
+  border: none;
+  border-radius: 12px;
+  background: #3556e9; 
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
+              0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.boton:hover { background: #2b45bb; }
+.boton:active { transform: translateY(1px); }
+
+
+.nota {
+  margin-top: 10px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+
+
+@media (max-width: 1024px) {
+  body { padding: 20px; }
+  .tarjeta { width: 92%; }
+}
+
+@media (max-width: 412px) {
+  .formulario {
+    grid-template-columns: 1fr;
+  }
+  .boton {
+    width: 100%;
+  }
+  .tarjeta {
+    padding: 18px;
+    border-radius: 14px;
+  }
+  .entrada, .boton {
+    height: 50px;
+    border-radius: 10px;
+  }
+}
