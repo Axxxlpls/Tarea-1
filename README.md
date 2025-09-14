@@ -2,13 +2,13 @@
 
 ---
 
-- Nombre:
-- Número de Control:
+- Nombre: Axel Saucedo Palos
+- Número de Control: 22151218
 
 ---
 
 ## 📌 Descripción
-(Escribe aquí en qué consiste tu proyecto de forma breve)
+Esta pagina cuenta con luenguaje html y css el cual conforman una pagina web de subscripcion 
 
 ---
 
@@ -25,4 +25,5 @@ Deploy: [Pega aquí el deploy de GitHub Pages]
 ---
 
 ## 📝 Reflexión
-(Escribe aquí unas líneas sobre lo que aprendiste, las dificultades que tuviste y cómo las solucionaste)
+En esta practica aprendi a como darle adaptapilidad a la pagina pra los diferentes tipos de dispositivos que existen ademas de comandos de de css para lograr una
+exelente vista para el usuario 
