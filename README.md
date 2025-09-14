@@ -20,7 +20,7 @@ Esta pagina cuenta con luenguaje html y css el cual conforman una pagina web de 
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: [Pega aquí tu enlace]  
+Repositorio en GitHub:https://github.com/Axxxlpls/Tarea-1
 Deploy: [Pega aquí el deploy de GitHub Pages]
 ---
 
